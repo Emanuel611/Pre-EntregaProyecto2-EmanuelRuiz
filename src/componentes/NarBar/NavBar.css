@@ -1,0 +1,61 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-repeat:  round;
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+}
+.menu:hover{
+    color: rgb(255, 0, 0) ;
+}
+
+
+
+.imgBanner {
+    position: relative;
+  }
+  
+  .imgBanner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/public/Web-Banner-Cat-Rep.jpg");
+    background-size: 20%;
+    opacity: 0.1;
+    z-index: -1;
+  }
+
+nav{
+  margin-left: 620px;
+}
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 1.1em; 
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    bottom: 25px;
+    margin-top: 60px;
+    margin-left: 40px;
+            font-size: 4em;
+            font-size: 3em;
+           text-decoration: none; 
+           
+}
+
+
+
+

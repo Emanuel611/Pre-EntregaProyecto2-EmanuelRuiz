@@ -1,0 +1,58 @@
+.factura-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titulo {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .tabla-factura {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla-factura th,
+  .tabla-factura td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tabla-factura th:first-child,
+  .tabla-factura td:first-child {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .tabla-factura th:nth-child(2),
+  .tabla-factura td:nth-child(2) {
+    width: 60%;
+  }
+  
+  .tabla-factura th:nth-child(3),
+  .tabla-factura td:nth-child(3) {
+    width: 20%;
+    text-align: right;
+  }
+  
+  .totales {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .subtotal,
+  .impuesto {
+    margin-bottom: 10px;
+  }
+  
+  .total {
+    font-size: 24px;
+  }
+  

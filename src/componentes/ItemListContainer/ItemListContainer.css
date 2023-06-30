@@ -1,0 +1,9 @@
+.ItemListContainer{
+    width: 100%;
+   background: linear-gradient(90deg, rgba(255, 51, 0, 0.965)0%, rgba(120,41,41,0.5002072117909664) 100%)
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
